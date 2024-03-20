@@ -5,7 +5,7 @@ const PriceOption = ({ option }) => {
   return (
     <div className="  bg-[#F2F2F2] p-4 rounded-md shadow-lg text-center space-y-4 flex flex-col">
       <h2>
-        <span className="text-7xl font-bold">{price}</span>
+        <span className="text-7xl font-bold">{price}$</span>
         <span className="text-2xl">/mon</span>
       </h2>
       <h4 className="text-2xl">{name}</h4>

@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import PrieOptions from './Components/PriceOptions/PrieOptions'
+import Linechart from './Components/Linechart/Linechart'
 // import DaisyNav from './Components/DaisyNav/DaisyNav'
 
 function App() {
@@ -11,8 +12,10 @@ function App() {
     {/* <DaisyNav></DaisyNav> */}
     <Navbar></Navbar>
     <PrieOptions></PrieOptions>
+    <h2 className='text-center font-bold text-7xl my-8'>Subject Mark</h2>
+    <Linechart></Linechart>
       
-      <h1 className='text-7xl'>React</h1>
+      {/* <h1 className='text-7xl'>React</h1> */}
  
      
         
